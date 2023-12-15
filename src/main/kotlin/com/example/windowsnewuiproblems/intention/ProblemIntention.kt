@@ -21,4 +21,6 @@ abstract class ProblemIntention: BaseIntentionAction(), Iconable {
     abstract fun showDialog(project: Project)
 
     override fun getIcon(flags: Int): Icon = AllIcons.Scope.Problems
+
+    override fun startInWriteAction(): Boolean = false
 }
