@@ -6,8 +6,6 @@ import com.intellij.openapi.ui.DialogWrapper
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBTextField
 import com.intellij.util.ui.FormBuilder
-import com.intellij.util.ui.components.BorderLayoutPanel
-import java.awt.Dimension
 import javax.swing.JComponent
 
 class FormBuilderProblemDialog(project: Project) : DialogWrapper(project) {

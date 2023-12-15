@@ -1,6 +1,5 @@
 package com.example.windowsnewuiproblems.intention
 
-import com.example.windowsnewuiproblems.dialog.KotlinUiDslProblemDialog
 import com.example.windowsnewuiproblems.dialog.KotlinUiDslWithSizeProblemDialog
 import com.intellij.openapi.project.Project
 
